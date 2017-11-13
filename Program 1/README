@@ -1,0 +1,4 @@
+This program simulates a client-server network that provides communication through TCP sockets.
+The server program - confserver - waits for incoming messages and connection requests from other clients.
+The server will then transmit the client's message to all other established in the network. 
+Each client process is created by running confclient.
